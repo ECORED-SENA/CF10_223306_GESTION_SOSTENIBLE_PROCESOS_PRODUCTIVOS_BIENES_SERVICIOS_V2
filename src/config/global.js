@@ -138,175 +138,107 @@ export default {
   },
   complementario: [
     {
-      tema: 'Procesos administrativos',
+      tema: 'Estudio del trabajo',
       referencia:
-        '<em>Lifeder Education. </em> (2022) ¿Qué es el Proceso Administrativo y cuáles son sus etapas?. ',
-      tipo: 'Video      ',
-      link: 'https://www.youtube.com/watch?v=QqcjI-zZyb8',
-    },
-    {
-      tema: 'Responsabilidad Social Empresarial',
-      referencia:
-        '<em>Lifeder Education.</em> (2021) ¿Qué es la Responsabilidad Social?. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=L7SDdGAImsA',
-    },
-    {
-      tema: 'Responsabilidad Social Empresarial',
-      referencia:
-        'Pérez, M.,  Espinoza, C. y Peralta, B. (2016). La responsabilidad social empresarial y su enfoque ambiental: una visión sostenible a futuro. Revista Universidad y Sociedad, 8(3), p. 169-178. ',
-      tipo: 'Artículo',
+        'Kanawaty, G. (1996). Introducción al estudio del trabajo. Oficina Internacional del Trabajo.',
+      tipo: 'PDF',
       link:
-        'http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202016000300023&lng=es&tlng=es',
-    },
-    {
-      tema: 'Partes interesadas',
-      referencia:
-        'Lteam Training. (2016). Partes Interesadas <em>Stakeholders</em>. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=9AtaIAZEu0c',
-    },
-    {
-      tema: 'Desarrollo sostenible',
-      referencia:
-        'KanelaMental. (2021). El Desarrollo Sostenible y sus pilares fundamentales.  ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=OZlUTG07XFQ',
-    },
-    {
-      tema: 'Diagnóstico y técnicas de recolección organizacional',
-      referencia:
-        'Lifeder Education. (2022) ¿Qué es el Diagnóstico organizacional y para qué sirve?.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=SnJz_2__fC0',
+        'https://teacherke.files.wordpress.com/2010/09/introduccion-al-estudio-del-trabajo-oit.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Competencia',
+      termino: 'Cargas de trabajo',
       significado:
-        'rivales a nivel de empresa. Investigar sobre quiénes son la competencia permitirá la identificación de amenazas y tener una estrategia para la reacción a dicha amenaza.',
+        'conjunto de requerimientos que debe realizar un trabajador en su jornada laboral.',
     },
     {
-      termino: 'Control',
+      termino: 'Código Sustantivo del Trabajo',
       significado:
-        'consiste en que la organización mida los resultados de cómo se hicieron las actividades planteadas y efectuadas, con el objetivo de generar mejoras continuas.',
+        'documento constitucional donde se especifican todas las normas que regulan el contexto laboral en el país.',
     },
     {
-      termino: 'Diagnóstico',
+      termino: 'Cuadro de control:',
       significado:
-        'recoge y analiza la información o datos para tomar decisiones frente a diferentes problemas de la organización.',
+        'documento donde se monitorizan procesos relacionados con la producción.',
     },
     {
-      termino: 'Dirección',
-      significado:
-        'consiste en que la organización verifique que se hagan las actividades o tareas propuestas para el logro de los objetivos, mediante el liderazgo, la motivación y la comunicación de los involucrados.',
+      termino: 'Días hábiles',
+      significado: 'se refiere a los días del año que son laborables.',
     },
     {
-      termino: 'Estrategia',
-      significado:
-        'es un proceso que busca dirigir o trazar un objetivo propuesto.',
+      termino: 'Estatus',
+      significado: 'posición que se ocupa dentro de un grupo social.',
     },
     {
-      termino: 'Indicador',
+      termino: 'Estudio de métodos',
       significado:
-        'brinda la información cualitativa o cuantitativa conformada por varios datos.',
+        'permite comparar el nivel de eficiencia de una empresa con relación a sus procesos.',
     },
     {
-      termino: 'Liderazgo',
+      termino: 'Listado operacional',
       significado:
-        'son las habilidades para dirigir, acompañar a un equipo de personas o trabajo.',
+        'capacidad de llevar a cabo distintas actividades en un mismo tiempo determinado.',
     },
     {
-      termino: 'Organización',
+      termino: 'Proceso productivo',
       significado:
-        'grupo de personas que se asocian para desarrollar una actividad económica y utilizar diversos recursos para lograr objetivos o metas.',
-    },
-    {
-      termino: 'Planeación',
-      significado:
-        'consiste en que la organización determine qué se va a hacer, de forma anticipada, para lograr los objetivos propuestos de manera eficiente.',
-    },
-    {
-      termino: 'Sostenibilidad',
-      significado:
-        'gestionar los recursos para satisfacer las necesidades actuales, sin poner en riesgo las necesidades futuras.',
-    },
-    {
-      termino: '<em>Stakeholders</em>',
-      significado:
-        'son el público de interés que se relaciona con las actividades y decisiones de una organización.',
-    },
-    {
-      termino: 'Valores',
-      significado:
-        'son aquellos principios, normas o creencias que caracterizan una organización.',
+        'conjunto de actividades que lleva a cabo una organización para generar productos o servicios.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Benavides, C. (2016). <em>Definiendo las partes interesadas en ISO 9001:2015</em>. Calidad para Pymes.  ',
+        'Ararat, A. (2010). Estudio de métodos y tiempos en el proceso productivo de la línea de camisas interior de Makila Cta, para mejorar la productividad de la empresa. Universidad Autónoma de Occidente',
+      link: 'https://red.uao.edu.co/handle/10614/1175',
+    },
+    {
+      referencia:
+        'Del Castillo, R. y Salazar, R. (2018). Fundamentos básicos de estadística.',
+      link: '',
+    },
+    {
+      referencia:
+        'Deming, W. (1989). Calidad, productividad y competitividad. La salida de la crisis. Ediciones Diaz de Santos.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, R. (2005).Estudio del trabajo: Ingeniería de métodos y medición del trabajo.McGraw - Hill',
+      link: '',
+    },
+    {
+      referencia:
+        'García, R. (2005).Estudio del trabajo: Ingeniería de métodos y medición del trabajo.McGraw - Hill',
       link:
-        'https://es.linkedin.com/pulse/definiendo-las-partes-interesadas-en-iso-90012015-benavides-gallegos',
+        'https://www.academia.edu/31455142/Manual_Del_Ingeniero_Industrial_Maynard',
     },
     {
       referencia:
-        'Business at Speed. (2018). <em>¿Qué indicadores miden la sostenibilidad de tu empresa? PHC Software.</em> ',
+        'Kanawaty, G. (1996). Introducción al estudio del trabajo. Oficina Internacional del Trabajo',
       link:
-        'https://phcsoftware.pe/business-at-speed/indicadores-sostenibilidad-empresa/',
+        'https://teacherke.files.wordpress.com/2010/09/introduccion-al-estudio-del-trabajo-oit.pdf',
     },
     {
       referencia:
-        'Calvo, E. (s. f.). <em>Influencia de Stakeholders en el Proyecto</em>. BSG Institute.  ',
+        'López, P. (2016). Novedades ISO 9001:2015. Fundación Confemetal.',
+      link: '',
+    },
+    {
+      referencia:
+        'Monks, J. (1991). Administración de operaciones. McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Proaño, D., Gisbert, V. y Pérez, E. (2017). Metodología para elaborar un plan de mejora continua. 3C Empresa.',
+      link: 'https://www.3ciencias.com/wp-content/uploads/2018/01/art_6.pdf',
+    },
+    {
+      referencia:
+        'Sipper, D. y Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill',
       link:
-        'https://bsginstitute.com/bs-campus/blog/influencia-de-stakeholders-en-el-proyecto-69',
-    },
-    {
-      referencia:
-        'Conexión ESAN. (2016) <em>¿Qué es el mapa de procesos de la organización?</em>. ESAN Graduate School of Business.  ',
-      link:
-        'https://www.esan.edu.pe/conexion-esan/que-es-el-mapa-de-procesos-de-la-organizacion',
-    },
-    {
-      referencia:
-        'Duque, Y., Cardona, M. y Rendón, J. (2014). <em>Responsabilidad Social Empresarial: Teorías, índices, estándares y certificaciones. Cuadernos de administración</em>, 29(50), p. 196–206. ',
-      link:
-        'https://www.academia.edu/71951475/Responsabilidad_Social_Empresarial_Teor%C3%ADas_%C3%ADndices_est%C3%A1ndares_y_certificaciones',
-    },
-    {
-      referencia:
-        'Editorial Grudemi. (2018). <em>Organización</em>. Enciclopedia Económica.  ',
-      link: 'https://enciclopediaeconomica.com/organizacion/',
-    },
-    {
-      referencia:
-        'Enciclopedia Concepto. (s. f.). <em>Proceso administrativo</em>. Concepto ',
-      link: 'https://concepto.de/proceso-administrativo/',
-    },
-    {
-      referencia:
-        'ISOTools. (2016). <em>Mapa de procesos según la nueva ISO 9001 2015</em>.  ',
-      link:
-        'https://www.isotools.org/2016/05/11/mapa-procesos-nueva-iso-9001-2015/',
-    },
-    {
-      referencia:
-        'Meza, A. (2020). <em>El Diagnóstico Organizacional: elementos, métodos y técnicas</em>. Mi Espacio.',
-      link:
-        'https://www.infosol.com.mx/miespacio/el-diagnostico-organizacional-elementos-metodos-y-tecnicas/',
-    },
-    {
-      referencia:
-        'URSE. (2015). <em>Conceptos y primeros pasos en RSE</em>. CEPB.',
-      link:
-        'https://www.cepb.org.bo/urse/wp-content/uploads/2015/03/GUIA1Vweb.pdf',
-    },
-    {
-      referencia:
-        'Velásquez, L. y D’Armas, M. (2015). El ingeniero con conciencia social: Una posibilidad para el desarrollo sostenible. <em>Universidad, Ciencia y Tecnología, 19(74)</em>, p. 25–38.',
-      link:
-        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-48212015000100003',
+        'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
     },
   ],
   creditos: [
@@ -330,22 +262,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'May Stefanny González Verjel',
-          cargo: 'Experta temática',
+          nombre: 'Víctor Manuel Isaza Córdoba',
+          cargo: 'Experta temático',
           centro:
-            'Centro de Industria, Empresa y Servicios Regionales - Regional Norte de Santander',
+            'Centro del Diseño y la Metrología - Regional Distrito Capital',
         },
         {
-          nombre: 'Miroslava González Hernández',
+          nombre: 'Luz Aída Quintero Velásquez',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leydy Jhuliana Jaramillo Mejía',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñadora Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Experta temática',
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Asesora Metodológica',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro del Diseño y la Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Darío González',
@@ -358,7 +300,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Blanca Flor Tinoco Torres',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

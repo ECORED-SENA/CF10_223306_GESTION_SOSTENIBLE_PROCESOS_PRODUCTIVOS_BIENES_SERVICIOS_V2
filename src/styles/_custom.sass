@@ -89,6 +89,7 @@ $float-distance3: -20px
 
 .margin-n
   margin: 0 -3rem
+
 .tabs-b__tab
   img
     filter: grayscale(1)
@@ -149,8 +150,12 @@ $float-distance3: -20px
     transform: scale(0.5)
 .tabs-a__tab
   background-color: #e8e8e8
-.cajon-b.color-primario
 
+.cajon-b.color-acento-contenido
+  &::before
+    background-color: #EAE4FF !important
+
+.cajon-b.color-primario
   &::before
     background-color: #F7E9E1 !important
 // .media-info
@@ -181,3 +186,171 @@ $float-distance3: -20px
 
 .text-left
   text-align: left !important
+
+.lightPurple_bg
+  padding: 2rem
+  background: #E2D9FF
+
+.purpleCard
+  height: 100%
+  padding: 1.5rem
+  background-color: #E2D9FF
+  border-radius: 2rem
+  .roundendTitle
+    padding: 1rem
+    margin-bottom: 1rem
+    border-radius: 1rem
+    background-color: white
+    h3
+      margin-bottom: 0
+  &:hover
+    background-color: #FAEBCD
+
+.orangeBorderCard
+  height: 100%
+  padding: 1rem
+  border-radius: 1rem
+  border: 3px solid #EF8B53
+
+.purpleBorderCard
+  height: 100%
+  padding: 1rem
+  border-radius: 1rem
+  background-color: #E2D9FF
+  border: 3px solid #583CB6
+
+.bg--orange
+  background-color: orange
+
+.paleYellow
+  position: relative
+  background-color:#FFFAEF
+
+.purpleTxt
+  color: #583CB6
+
+.img65
+  width: 65px
+  height: 65px
+
+.img85
+  width: 85px
+  height: 85px
+
+.h100
+  height: 100%
+
+.x--center
+  position: relative
+  left: 50%
+  transform: translateX(-50%)
+.y--center
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
+.CrdVertical_Avatar
+  .CrdIconContainer
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      height: 50%
+      background-color: #F0BD51
+      border-top-right-radius: 1rem
+      border-top-left-radius: 1rem
+
+    .CrdIcon  
+      position: relative
+      left: 50%
+      transform: translate(-50%)
+      width: 85px
+      height: 85px
+      img
+        width: 100%
+        height: 100%
+  .CrdBody 
+    padding: 1rem
+    background-color: #F0BD51
+    border-bottom-left-radius: 1rem
+    border-bottom-right-radius: 1rem
+
+.CrdYellow
+  height: 100%
+  padding: 2rem
+  border-radius: 1rem
+  background-color: #FAEBCD
+  .AvatarICon
+    position: relative
+    width: 85px
+    left: 50%
+    transform: translateX(-50%)
+
+.purpleContainer
+  position: relative
+  padding: 3rem
+  border-radius: 1.5rem
+  background-color: #583CB6
+  .Icon01, .Icon02
+    position: absolute
+    width: 90px
+    height: auto
+  .Icon01
+    top: -1.5rem
+    left: 2rem
+  .Icon02
+    bottom: -1rem
+    right: 0
+  p 
+    color: white
+    margin-bottom: 0
+
+.acordion__activo
+  background-color: #E2D9FF
+
+.cstmYellow.acordion__activo
+    background-color: #FAEBCD
+
+.gradient_bg_01
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,251,242,1) 100%)
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #E2D9FF
+    color: #12263F
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #E2D9FF
+
+.brd-rad
+  border-radius: 1rem
+
+.img130
+  width: 130px
+
+.cstmCard_01
+  position: relative
+  padding: 1rem
+  height: 100%
+  border-radius: 1rem
+  background-color: #F0BD51
+  & > *
+    position: relative
+  figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 80%
+    background-color: #FAEBCD
+    border-bottom-left-radius: 1rem 
+    border-bottom-right-radius: 1rem
+  &:hover
+    background-color: #583CB6
+  

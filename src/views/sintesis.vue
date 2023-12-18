@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 Aquí finaliza el estudio de este componente formativo. En este punto, haga un análisis del mapa conceptual que se muestre a continuación y realice su propia síntesis de los contenidos y temas estudiados. ¡Adelante!
 
     .row.justify-content-center
       .col-lg-10.mb-5

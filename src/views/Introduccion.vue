@@ -14,8 +14,9 @@
 
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A?si=dzo3bl68Yg1sQ-66" title="Nombre del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Nombre del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/obdiCn6WJuo" title="Nombre del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Estudio del trabajo y su aplicación en los sistemas de producción 
+      
 
 
 
