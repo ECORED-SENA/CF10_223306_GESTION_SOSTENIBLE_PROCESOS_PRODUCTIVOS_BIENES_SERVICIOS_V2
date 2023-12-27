@@ -158,7 +158,7 @@ export default {
         'documento constitucional donde se especifican todas las normas que regulan el contexto laboral en el país.',
     },
     {
-      termino: 'Cuadro de control:',
+      termino: 'Cuadro de control',
       significado:
         'documento donde se monitorizan procesos relacionados con la producción.',
     },
@@ -237,8 +237,7 @@ export default {
     {
       referencia:
         'Sipper, D. y Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill',
-      link:
-        'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
+      link: '',
     },
   ],
   creditos: [

@@ -28,16 +28,16 @@
     .tarjeta.bg-color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/10.svg")
+          img(src="@/assets/curso/temas/tema1/book.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-1 Introducción al estudio del trabajo:
               p.text-small.mb-0 Explore el contenido del siguiente material, céntrese en la información de las páginas 3 a la 56 y amplíe sus conocimientos sobre los elementos mencionados hasta este punto.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=QqcjI-zZyb8" target="_blank")
-                span Ver video
-                i.fas.fa-video
+              a.boton.color-acento-botones(href="https://teacherke.files.wordpress.com/2010/09/introduccion-al-estudio-del-trabajo-oit.pdf" target="_blank")
+                span Abrir PDF
+                i.far.fa-file-pdf
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Estudio métodos de trabajo
@@ -51,7 +51,7 @@
 
         p #[strong Para seleccionar una acertada oferta de mejora del proceso, se debe:]
 
-      .col-lg-4.d-none.d-flex(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/img3.png', alt='')
+      .col-lg-4.d-none.d-lg-flex(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/img3.png', alt='')
 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
@@ -347,7 +347,7 @@
           div(style='background-color: #F0BD51').p-5.h-100
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Cursograma administrativo
-            p La ruta de trabajo del personal administrativo, se refleja en el liderazgo y solución de conflictos y problemas al interior de los procesos.
+            p La ruta de trabajo del personal administrativo se refleja en el liderazgo y solución de conflictos y problemas al interior de los procesos.
 
             a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
               span Abrir imagen
@@ -386,7 +386,11 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0              
-              p.mb-0 #[strong Explore la información contenida en el documento que aquí se propone; allí encontrará algunos ejemplos orientadores.]
+              p.mb-0 #[strong Explore la información contenida en el documento denominado Ejemplos Orientadores Registrar los Hechos, que se encuentra en la carpeta Anexos.]
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Ejemplos_orientadores.pdf')" target="_blank")
+                span Abrir Anexo
+                i.far.fa-file-pdf
 
     p.mb-5 Otra de las maneras para registrar los hechos son los diagramas que hacen referencia al movimiento de los elementos que intervienen en los procesos, estos son:     
 
@@ -472,7 +476,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/46.svg", alt="alt")
       .col-lg
-        p Como se detalla e los ejemplos y en la figura inmediatamente anterior, se hace reconocimiento a las diferentes formas de diseñar gráficos y a la empleabilidad en diversos procesos de producción relacionados con el sector de manufactura y servicio, según sus diferentes propiedades; de allí se identifica la simbología que los acompaña y que cumple estándares internacionales empleados para reducir el tiempo de escritura.
+        p Como se detalla en los ejemplos y en la figura inmediatamente anterior, se hace reconocimiento a las diferentes formas de diseñar gráficos y a la empleabilidad en diversos procesos de producción relacionados con el sector de manufactura y servicio, según sus diferentes propiedades; de allí se identifica la simbología que los acompaña y que cumple estándares internacionales empleados para reducir el tiempo de escritura.
 
         p.mb-0 Se constituyen en piezas claves y cómodas para determinar las distintas actividades existentes. Con la observación directa se generan los gráficos que permiten mayor agilidad de entendimiento de las actividades, lo cual reduce horas de lectura en escritos extensos; además, muestran con claridad lo que se desarrolla en cada proceso.
 
@@ -542,9 +546,9 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
-          span Principales símbolos para usar en un diagrama de operaciones
+          span Preguntas preliminares
         figure
-          img(src="@/assets/curso/temas/tema1/55.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/55.svg", alt="Esquema conceptual que detalla las preguntas preliminares para la realización del examen crítico.")
           figcaption Nota. Tomado de Kanawaty (1996).
 
     .cajon-b-editado(data-aos="zoom-in")

@@ -24,7 +24,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")       
         p Una infraestructura tecnológica y logística de producción, en tiempos modernos, se integra al concepto de un sistema amigable y sostenible con el medio ambiente. Los ingenieros de la producción proporcionan filosofías que simplifican la manufactura responsable, la vuelven práctica, y mediante la proyección de las tecnologías industriales emergentes, logran entregar productos con altos estándares de calidad, a los que se les puede aplicar logística inversa de manufactura.
-        p Estos sistemas están comprometidos a mantener el planeta limpio de desperdicios, algunos de ellos utilizados por directores operativos para simplificar las líneas de producción, teniendo presentes algunas características que son descritas por Sy (1991), así como se plantea a continuación:
+        p Estos sistemas están comprometidos a mantener el planeta limpio de desperdicios, algunos de ellos utilizados por directores operativos para simplificar las líneas de producción, teniendo presentes algunas características como las que se plantean a continuación:
       .col-lg-4.d-none.d-lg-flex(data-aos="flip-right")
         figure
           img(src="@/assets/curso/temas/tema3/img_03.png", alt="alt") 
@@ -47,7 +47,7 @@
           p.text-center.mb-0 La producción es una actividad con una organización. Por tanto, cada sistema de producción persigue un objetivo particular. 
 
     p(data-aos="fade-in") Se caracterizan distintos esquemas logísticos de producción, pero en la realidad del mercado empresarial es difícil hallar arquetipos en estado original, la tecnología entró y modificó la parte activa de ellos, los simplificó, hizo disminución en la velocidad de construcción y la competencia se volvió más agresiva.
-    p(data-aos="fade-in").mb-5 Algunos grupos genéricos de sistemas de producción. 
+    p(data-aos="fade-in").mb-5 Algunos grupos genéricos de sistemas de producción son: 
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.col-10(data-aos="fade-right")
@@ -84,7 +84,7 @@
         .titulo(style='background-color: #F7E9E1' data-aos="fade-right").d-inline-block.p-3.mb-4
           h4.mb-0 Estructuras logísticas de producción por proyectos o producto único.
         p(data-aos="fade-in") En esta clase de sistema de producción por proyecto o producto único, cada bien demanda estrategias de producción definidas en relación con el volumen y complejidad. La orden de compra es la que determina el sistema.
-        p(data-aos="fade-in").mb-0 De acuerdo con Sy (1991), la producción por proyecto o producto único se caracteriza por la fabricación de gran variedad de productos con poco volumen, diseñados y producidos de acuerdo con especificaciones dadas por los clientes, dentro de un tiempo y costo previamente fijados.
+        p(data-aos="fade-in").mb-0 La producción por proyecto o producto único se caracteriza por la fabricación de gran variedad de productos con poco volumen, diseñados y producidos de acuerdo con especificaciones dadas por los clientes, dentro de un tiempo y costo previamente fijados.
       .col-lg-4.d-none.d-lg-flex(data-aos="flip-right")
         figure
           img(src="@/assets/curso/temas/tema3/img_10.png", alt="alt")
@@ -110,7 +110,9 @@
             li.mb-2
               i.fa-li.fas.fa-check-circle.purpleTxt
               | Equipo de colaboradores capacitados y tecnificados.
-          p.mb-0 Es fundamental una planeación de la producción estructurada, para poder encadenar las exigencias de cada bien, los inventarios de cada área de trabajo y las prelaciones de los pedidos.
+            li.mb-0
+              i.fa-li.fas.fa-check-circle.purpleTxt
+              | Es fundamental una planeación de la producción estructurada, para poder encadenar las exigencias de cada bien, los inventarios de cada área de trabajo y las prelaciones de los pedidos.         
 
       .col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
         .CrdYellow            
@@ -266,19 +268,19 @@
         ul.fa-ul
           li.mb-3
             i.fa-li.fas.fa-chevron-right
-            | Empleo de infraestructura mecánica e instalaciones locativas compartidas.
+            | Se tendrá conocimiento práctico de lo que la empresa hace y cómo lo hace.
           li.mb-3
             i.fa-li.fas.fa-chevron-right
-            | Empleo de infraestructura mecánica e instalaciones locativas compartidas.
+            | Se podrá economizar tiempo ya que habrá tareas concretas asignadas a responsables específicos.
           li.mb-3
             i.fa-li.fas.fa-chevron-right
-            | Empleo de infraestructura mecánica e instalaciones locativas compartidas.
+            | Mejora continua a partir del control y medición de actividades.
           li.mb-3
             i.fa-li.fas.fa-chevron-right
-            | Empleo de infraestructura mecánica e instalaciones locativas compartidas.
+            | Sin importar los cambios directivos que se puedan presentar en la empresa, la misma será independiente en su operación.
           li.mb-0
             i.fa-li.fas.fa-chevron-right
-            | Empleo de infraestructura mecánica e instalaciones locativas compartidas.
+            | Se empleará la infraestructura mecánica e instalaciones locativas compartidas.
       .col-lg-5(data-aos="flip-right")
         figure
           img(src="@/assets/curso/temas/tema3/img_20.svg", alt="alt")
@@ -464,7 +466,7 @@
           img(src="@/assets/curso/temas/tema3/img_39.svg", alt="Formato de listado de operaciones")
           figcaption Nota. Tomado de Kanawaty (1996).
 
-    p(data-aos="fade-in") La ficha de listado de operaciones presentada, presenta no solo dicha lista, sino también las máquinas donde se ejecuta la operación y el tiempo estándar que se demora cada una. Adicionalmente, presenta campos para anotar observaciones pertinentes y que apunten a mejorar la productividad. Así mismo, contiene campos para registro de los nombres de las personas que hacen o harán la operación.
+    p(data-aos="fade-in") La ficha de listado de operaciones presentada, muestra no solo dicha lista, sino también las máquinas donde se ejecuta la operación y el tiempo estándar que se demora cada una. Adicionalmente, presenta campos para anotar observaciones pertinentes y que apunten a mejorar la productividad. Así mismo, contiene campos para registro de los nombres de las personas que hacen o harán la operación.
 
     p(data-aos="fade-in") A continuación, un ejemplo de una secuencia operacional, donde está el listado de las operaciones en un orden lógico, con las máquinas donde se ejecuta la operación, y el tiempo estándar que se demora cada una. Adicionalmente, se anotan observaciones pertinentes y que apunten a mejorar la productividad, y los nombres de las personas que hacen o harán la operación.
 
