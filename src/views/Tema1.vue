@@ -93,7 +93,7 @@
     figure(data-aos="zoom-in").mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/S-1BiUW18kM" title="Nombre del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Conceptos generales sobre métodos de trabajo     
+      figcaption Video. Conceptos generales sobre métodos de trabajo
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -267,7 +267,7 @@
               h5 Consideraciones técnicas
               p Consisten en la practicidad de los métodos, en la estandarización de los tiempos y en mejorar el entorno del puesto de trabajo; se deben establecer en conjunto para hacer posible que el cambio de un proceso beneficie a toda la organización. Se debe aterrizar a la realidad el alcance que tendrá el estudio, favoreciendo resultados concretos y funcionales al establecer límites.
 
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
@@ -353,31 +353,37 @@
               span Abrir imagen
               i(class="fas fa-search")
               .indicador--click(v-if="mostrarIndicador")
-    
-    ModalA(:abrir-modal.sync="modal1")  
+
+    ModalA(:abrir-modal.sync="modal1")
       figure
         img(src="@/assets/curso/temas/tema1/32.jpg", alt="alt")
+        figcaption Nota. Cursograma sinóptico. Tomado de Kanawaty, G. (1996).
 
-    ModalA(:abrir-modal.sync="modal2")  
+    ModalA(:abrir-modal.sync="modal2")
       figure
         img(src="@/assets/curso/temas/tema1/33.jpg", alt="alt")
+        figcaption Nota. Cursograma analítico. Tomado de Kanawaty, G. (1996).
 
-    ModalA(:abrir-modal.sync="modal3")  
+    ModalA(:abrir-modal.sync="modal3")
       figure
         img(src="@/assets/curso/temas/tema1/34.jpg", alt="alt")
+        figcaption Nota. Cursograma analítico. Tomado de Kanawaty, G. (1996).
 
-    ModalA(:abrir-modal.sync="modal4")  
+    ModalA(:abrir-modal.sync="modal4")
       figure
         img(src="@/assets/curso/temas/tema1/35.jpg", alt="alt")
+        figcaption Nota. Cursograma de maquinaria. Tomado de Kanawaty, G. (1996).
 
-    ModalA(:abrir-modal.sync="modal5")  
+    ModalA(:abrir-modal.sync="modal5")
       figure
         img(src="@/assets/curso/temas/tema1/36.jpg", alt="alt")
+        figcaption Nota. Diagrama bimanual. Tomado de Kanawaty, G. (1996).
 
-    ModalA(:abrir-modal.sync="modal6")  
+    ModalA(:abrir-modal.sync="modal6")
       figure
         img(src="@/assets/curso/temas/tema1/37.jpg", alt="alt")
-    
+        figcaption Nota. Cursograma administrativo. Tomado de Kanawaty, G. (1996).
+
 
     .tarjeta.bg-color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
@@ -385,22 +391,22 @@
           img(src="@/assets/curso/temas/tema1/38.svg")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0              
+            .col.mb-3.mb-sm-0
               p.mb-0 #[strong Explore la información contenida en el documento denominado Ejemplos Orientadores Registrar los Hechos, que se encuentra en la carpeta Anexos.]
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Ejemplos_orientadores.pdf')" target="_blank")
                 span Abrir Anexo
                 i.far.fa-file-pdf
 
-    p.mb-5 Otra de las maneras para registrar los hechos son los diagramas que hacen referencia al movimiento de los elementos que intervienen en los procesos, estos son:     
+    p.mb-5 Otra de las maneras para registrar los hechos son los diagramas que hacen referencia al movimiento de los elementos que intervienen en los procesos, estos son:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.d-none.d-xl-flex(data-aos="fade-right")
         img(data-aos='zoom-in')(src='@/assets/curso/temas/tema1/39.svg', alt='')
       .col-xl-8(data-aos="fade-left")
-        SlyderF.slyder-100(columnas="col-lg-6")          
+        SlyderF.slyder-100(columnas="col-lg-6")
           div(style='background-color: #FFF9ED').p-5.h-100
-            h3 Diagrama de recorrido 
+            h3 Diagrama de recorrido
             p Diagrama de recorrido, de circuito o flujograma de hilos, ayuda al registro de la información documentada para reconocer e inspeccionar las operaciones o tareas de una forma  más visual. Es un prototipo en miniatura, diseñado siguiendo la trayectoria para mostrar el camino que sigue un colaborador en un espacio físico.
 
             a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
@@ -419,7 +425,7 @@
 
           div(style='background-color: #FFF9ED').p-5.h-100
             h3 Ciclograma
-            p Imagen panorámica de espacios físicos, en los diferentes recorridos de los recursos que intervienen;, posiciones geográficas de elementos en el proceso, y disposición del lugar de trabajo., Anteriormente, fotografías aéreas;, en la actualidad emergente, el empleo de drones. 
+            p Imagen panorámica de espacios físicos, en los diferentes recorridos de los recursos que intervienen;, posiciones geográficas de elementos en el proceso, y disposición del lugar de trabajo., Anteriormente, fotografías aéreas;, en la actualidad emergente, el empleo de drones.
 
             a.boton.color-acento-botones.indicador__container(@click="modal9 = true")
               span Abrir imagen
@@ -428,7 +434,7 @@
 
           div(style='background-color: #FFF9ED').p-5.h-100
             h3 Cronociclograma
-            p Es una forma de ciclograma que emplea, en el esquema gráfico, una luz led intermitente, sincronizada, de tal forma que el recorrido quede grabado por una serie de trazos en representación de lágrimas, cuyo vértice marca la ruta y donde los espacios calculen la rapidez del movimiento. 
+            p Es una forma de ciclograma que emplea, en el esquema gráfico, una luz led intermitente, sincronizada, de tal forma que el recorrido quede grabado por una serie de trazos en representación de lágrimas, cuyo vértice marca la ruta y donde los espacios calculen la rapidez del movimiento.
 
             a.boton.color-acento-botones.indicador__container(@click="modal10 = true")
               span Abrir imagen
@@ -444,21 +450,26 @@
               i(class="fas fa-search")
               .indicador--click(v-if="mostrarIndicador")
 
-    ModalA(:abrir-modal.sync="modal7")  
+    ModalA(:abrir-modal.sync="modal7")
       figure
         img(src="@/assets/curso/temas/tema1/40.jpg", alt="alt")
-    ModalA(:abrir-modal.sync="modal8")  
+        figcaption Nota. Diagrama de recorrido. Tomado de Kanawaty, G. (1996).
+    ModalA(:abrir-modal.sync="modal8")
       figure
         img(src="@/assets/curso/temas/tema1/41.jpg", alt="alt")
-    ModalA(:abrir-modal.sync="modal9")  
+        figcaption Nota. Diagrama de hilos. Tomado de Kanawaty, G. (1996).
+    ModalA(:abrir-modal.sync="modal9")
       figure
         img(src="@/assets/curso/temas/tema1/42.jpg", alt="alt")
-    ModalA(:abrir-modal.sync="modal10")  
+        figcaption Nota. Ciclograma. Tomado de Kanawaty, G. (1996).
+    ModalA(:abrir-modal.sync="modal10")
       figure
         img(src="@/assets/curso/temas/tema1/43.jpg", alt="alt")
-    ModalA(:abrir-modal.sync="modal11")  
+        figcaption Nota. Cronociclograma. Tomado de Kanawaty, G. (1996).
+    ModalA(:abrir-modal.sync="modal11")
       figure
         img(src="@/assets/curso/temas/tema1/44.jpg", alt="alt")
+        figcaption Nota. Gráfico de trayectoria. Tomado de Kanawaty, G. (1996).
 
     p.mb-5 A continuación, se presenta un ejemplo de diagrama de recorrido del proceso de un cinturón:
 
@@ -489,14 +500,14 @@
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
       table
         caption Nota. Tomado de Kanawaty (1996)
-        thead          
+        thead
           tr.text-center
             th(width="20%") SÍMBOLO
             th(width="30%") ACTIVIDAD
             th(width="50%") SIGNIFICADO
         tbody
           tr
-            td 
+            td
               img(src="@/assets/curso/temas/tema1/47.svg", alt="alt").img85.x--center
             td.text-center #[strong Operación]
             td Hace referencia a las fases principales del proceso. Se puede decir que existe operación cuando se desarrolla una actividad para lograr el producto final.
@@ -525,14 +536,14 @@
               img(src="@/assets/curso/temas/tema1/52.svg", alt="alt").img85.x--center
             td.text-center #[strong Actividades combinadas]
             td Hace referencia a varias actividades que se ejecutan al mismo tiempo o por el mismo operario.
-           
+
 
     .titulo(style='background-color: #F7E9E1' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Examinar de forma crítica
 
     p(data-aos="fade-in") Para llevar a cabo un examen crítico, comúnmente se hace uso del interrogatorio donde, a través de diversas preguntas, se indaga acerca de cada actividad, con el fin de explorar el proceso que se está estudiando. La acción de escuchar a las personas involucradas en las actividades que se están evaluando, permite visualizar de mejor manera cómo se está desarrollando el método actual; adicionalmente, permite identificar las variaciones que sean necesarias, tanto en funcionalidad como en el impacto que estas desarrollan al proceso productivo.
 
-    p(data-aos="fade-in").mb-5 #[strong A través de la inspección de una infraestructura física, tales actividades se clasifican en:]    
+    p(data-aos="fade-in").mb-5 #[strong A través de la inspección de una infraestructura física, tales actividades se clasifican en:]
 
     figure.d-none.d-lg-flex.mb-5(data-aos="zoom-in")
       img(src="@/assets/curso/temas/tema1/53.svg", alt="alt")
@@ -567,7 +578,7 @@
         .tabla-a.color-acento-contenido.mb-5
           table
             caption Nota. Adaptado de Kanawaty (1996).
-            thead(style="background-color:#583CB6")          
+            thead(style="background-color:#583CB6")
               tr.text-center.text-white
                 th(width="25%") Lugar
                 th(width="25%") Sucesión
@@ -583,7 +594,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/57.svg", alt="alt")
 
-    p(data-aos="fade-in").mb-5 Desde las etapas para el estudio de los métodos de trabajo, cabe mencionar las siguientes cuatro que se desarrollan a continuación: 
+    p(data-aos="fade-in").mb-5 Desde las etapas para el estudio de los métodos de trabajo, cabe mencionar las siguientes cuatro que se desarrollan a continuación:
 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris" data-aos="zoom-in")
@@ -610,7 +621,7 @@
 
       .row(titulo="Definir el nuevo método de trabajo").px-4
         .col-lg
-          p Después de definir el nuevo método, debe ser socializado con todas las personas sobre las que tiene incidencia, de una manera clara y entendible; es así como se establece la introducción de este. En este punto, se hace necesario el uso de la hoja de instrucciones, que es un documento donde se consigna toda la información que el trabajador debe conocer, así como los cambios instaurados y la perfección del método, lo cual permitirá una adaptación al cambio mucho más llevadera.          
+          p Después de definir el nuevo método, debe ser socializado con todas las personas sobre las que tiene incidencia, de una manera clara y entendible; es así como se establece la introducción de este. En este punto, se hace necesario el uso de la hoja de instrucciones, que es un documento donde se consigna toda la información que el trabajador debe conocer, así como los cambios instaurados y la perfección del método, lo cual permitirá una adaptación al cambio mucho más llevadera.
         .col-auto.d-none.d-lg-flex
           figure
             img(src="@/assets/curso/temas/tema1/61.svg", alt="alt")
@@ -636,8 +647,8 @@
             img(src="@/assets/curso/temas/tema1/63.svg", alt="alt")
         .col-lg-8
           p(data-aos="fade-in") Compilando datos sobre el estudio de métodos y según el libro de introducción al estudio del trabajo de la OIT (Kanawaty, 1996), existen unas herramientas básicas, que son fuente del conocimiento, obtenido por años de experiencia de los cuerpos dedicados a la ingeniería del estudio del trabajo y que ayudan en la estructuración completa y precisa de un método; se les denominan principios de economía de movimientos y se agrupan en tres bloques que los clasifican para su estudio:
-          .row.justify-content-center 
-            .col-auto.m-2(data-aos="zoom-in")        
+          .row.justify-content-center
+            .col-auto.m-2(data-aos="zoom-in")
               .row.align-items-stretch
                 .col-auto.g-0
                   figure
@@ -646,7 +657,7 @@
                   .paleYellow.h-100.p-3
                     p.mb-0.y--center #[strong Utilización del cuerpo humano.]
 
-            .col-auto.m-2(data-aos="zoom-in")         
+            .col-auto.m-2(data-aos="zoom-in")
               .row.align-items-stretch
                 .col-auto.g-0
                   figure
@@ -655,7 +666,7 @@
                   .paleYellow.h-100.p-3
                     p.mb-0.y--center #[strong Disposición del lugar de trabajo.]
 
-            .col-auto.m-2(data-aos="zoom-in")        
+            .col-auto.m-2(data-aos="zoom-in")
               .row.align-items-stretch
                 .col-auto.g-0
                   figure
@@ -679,13 +690,13 @@
               | Los movimientos de los brazos deben hacerse de forma simultánea y en direcciones opuestas y simétricas.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
-              | Los movimientos de las manos deben restringirse a la clasificación más elemental. 
+              | Los movimientos de las manos deben restringirse a la clasificación más elemental.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
-              | Siempre que sea factible, utilizar el impulso como energía, y evitar un esfuerzo muscular adicional. 
+              | Siempre que sea factible, utilizar el impulso como energía, y evitar un esfuerzo muscular adicional.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
-              | Son de mejor uso los movimientos suaves y continuos de las manos.  
+              | Son de mejor uso los movimientos suaves y continuos de las manos.
 
       .row(titulo="Principios de economía de movimientos: Disposición del lugar de trabajo").px-4
         .col-lg-3.d-none.d-lg-flex
@@ -704,7 +715,7 @@
               | Situar los materiales y las herramientas en el orden de uso.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
-              | Establecer condiciones de visibilidad apropiadas. 
+              | Establecer condiciones de visibilidad apropiadas.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
               | Condicionar la iluminación como requisito para una percepción visual satisfactoria.
@@ -727,7 +738,7 @@
               | Evitar que las manos realicen movimientos que puedan ser ejecutados por un dispositivo electrónico o mecánico.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
-              | Combinar el diseño de dos o más herramientas en una sola,  siempre y cuando sea posible. 
+              | Combinar el diseño de dos o más herramientas en una sola,  siempre y cuando sea posible.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
               | Establecer sitios fijos para materiales y herramientas en el lugar de trabajo.
@@ -736,18 +747,18 @@
               | Cuando cada dedo realiza un movimiento específico, debe distribuirse la carga de acuerdo con las capacidades inherentes a los dedos.
             li.mb-3
               i.fa-li.fas.fa-chevron-right
-              | Las palancas, manivelas y volantes deben situarse de forma que el operario pueda manejarlos con un cambio mínimo. 
+              | Las palancas, manivelas y volantes deben situarse de forma que el operario pueda manejarlos con un cambio mínimo.
 
     p(data-aos="fade-in").mb-5 Estas reglas, si se emplean en el diseño óptimo de métodos de trabajo, facilitarán confort para la ejecución de las tareas del día a día de los colaboradores, elevando la productividad y haciendo más eficientes los procesos.
 
     .titulo(style='background-color: #F7E9E1' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Diagrama bimanual para el registro de actividades
 
-    .margin-n.gradient_bg_01.p-5.mb-5   
+    .margin-n.gradient_bg_01.p-5.mb-5
       .row.justify-content-center.align-items-center.mb-5.mb-lg-0
         .col-lg-4.col-8.mb-4.mb-lg-0
           figure(data-aos="fade-in")
-            img(src="@/assets/curso/temas/tema1/70.png", alt="alt")     
+            img(src="@/assets/curso/temas/tema1/70.png", alt="alt")
         .col-lg-8
           p.mb-0(data-aos="zoom-in") El registro de la información documentada por operación, es trascendental en la descripción y observación de los micromovimientos de las acciones imperceptibles; la relevancia en la utilización de este diagrama es la separación que se da cuando se muestran todos los movimientos realizados por la mano izquierda y por la mano derecha, mostrando la relación entre ellas. Los objetivos esenciales del diagrama bimanual son, principalmente, estandarizar movimientos repetitivos, tecnificar los métodos de trabajo y establecer el ciclo de ejecución de la operación, completo. El siguiente es un ejemplo de formato de diagrama bimanual:
 
@@ -776,35 +787,35 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Aprobación de la dirección")
             .col-lg
-              p.mb-0 Para que todo proyecto de mejoramiento funcione, debe estar acompañado de la gerencia o sus representantes.         
+              p.mb-0 Para que todo proyecto de mejoramiento funcione, debe estar acompañado de la gerencia o sus representantes.
             .col-auto.d-none.d-lg-flex
               figure
                 img(src='@/assets/curso/temas/tema1/73.svg', alt='').img85
 
           .row(numero="2" titulo="Aceptar las nuevas disposiciones")
             .col-lg
-              p.mb-0 Con toda la información presentada, se debe lograr que el jefe o coordinador inmediato del taller acepte las nuevas disposiciones: Es importante que la persona encargada de liderar el nuevo método realice el acompañamiento requerido para un éxito total.         
+              p.mb-0 Con toda la información presentada, se debe lograr que el jefe o coordinador inmediato del taller acepte las nuevas disposiciones: Es importante que la persona encargada de liderar el nuevo método realice el acompañamiento requerido para un éxito total.
             .col-auto.d-none.d-lg-flex
               figure
                 img(src='@/assets/curso/temas/tema1/74.svg', alt='').img85
 
           .row(numero="3" titulo="Aceptar los cambios")
             .col-lg
-              p.mb-0 Lograr que los empleados y operarios, sobre los que repercuten las decisiones, también acepten los cambios. Todas las socializaciones y capacitaciones enfocadas en lograr que el personal se informe para que el nuevo método salga adelante, son fundamentales para lograr obtener los beneficios con ese cambio.        
+              p.mb-0 Lograr que los empleados y operarios, sobre los que repercuten las decisiones, también acepten los cambios. Todas las socializaciones y capacitaciones enfocadas en lograr que el personal se informe para que el nuevo método salga adelante, son fundamentales para lograr obtener los beneficios con ese cambio.
             .col-auto.d-none.d-lg-flex
               figure
                 img(src='@/assets/curso/temas/tema1/75.svg', alt='').img85
 
           .row(numero="4" titulo="Conocer los cambios")
             .col-lg
-              p.mb-0 Dar a conocer el nuevo método de trabajo a todo el personal: la información deberá ser veraz, completa, puntual y ser entregada asertivamente a las personas implicadas en el proceso por comunicar.       
+              p.mb-0 Dar a conocer el nuevo método de trabajo a todo el personal: la información deberá ser veraz, completa, puntual y ser entregada asertivamente a las personas implicadas en el proceso por comunicar.
             .col-auto.d-none.d-lg-flex
               figure
                 img(src='@/assets/curso/temas/tema1/76.svg', alt='').img85
 
           .row(numero="5" titulo="Monitorear lo nuevo")
             .col-lg
-              p.mb-0 Monitorear el nuevo método de trabajo favorecerá estar seguros de que se lleva a cabo del modo previsto: es clave un acompañamiento a la implementación del nuevo método.       
+              p.mb-0 Monitorear el nuevo método de trabajo favorecerá estar seguros de que se lleva a cabo del modo previsto: es clave un acompañamiento a la implementación del nuevo método.
             .col-auto.d-none.d-lg-flex
               figure
                 img(src='@/assets/curso/temas/tema1/77.svg', alt='').img85
@@ -822,7 +833,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/img_41.svg", alt="alt")
 
-    
+
     figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/5bnrh8n-6-0" title="Nombre del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -831,7 +842,7 @@
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Medición del trabajo  
+      h2 1.2 Medición del trabajo
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -844,7 +855,7 @@
             .col-auto
               figure
                 img(src="@/assets/curso/temas/tema1/80.svg", alt="alt").img65
-            .col-lg 
+            .col-lg
               p.mb-0 El analista de ingeniería debe comunicarse con el colaborador, en compañía del líder de proceso y, en lo posible, del líder del área de trabajo, si lo hay, para exponerle cuidadosamente el objeto del estudio y las acciones pertinentes, como estrategias para mejorar la productividad.
       .col-lg-4.d-none.d-lg-flex(data-aos="zoom-in")
         figure
@@ -893,7 +904,7 @@
           .cstmCard_01(data-aos="zoom-in")
             figure
               img(src="@/assets/curso/temas/tema1/86.svg", alt="alt").img65
-            p.pt-4 En las operaciones clásicas y de constante repetición, se nota que los colaboradores trabajan a un ritmo que no es el propio, porque no pueden extrapolar tan detalladamente la duración de los ciclos de trabajo como cuando inician la tarea. 
+            p.pt-4 En las operaciones clásicas y de constante repetición, se nota que los colaboradores trabajan a un ritmo que no es el propio, porque no pueden extrapolar tan detalladamente la duración de los ciclos de trabajo como cuando inician la tarea.
 
         .col-lg-4.mb-4
           .cstmCard_01(data-aos="zoom-in")
@@ -911,7 +922,7 @@
           .cstmCard_01(data-aos="zoom-in")
             figure
               img(src="@/assets/curso/temas/tema1/89.svg", alt="alt").img65
-            p.pt-4 Finalmente, establecer, a partir del estudio del trabajo, el tiempo que invierte realmente el colaborador observado, cuál es el mejor método a establecer, determinar los modelos a seguir por el grueso de los colaboradores calificados. Estos, son todos medios pertinentes para cumplir con los criterios del cliente y soportar económicamente la empresa. 
+            p.pt-4 Finalmente, establecer, a partir del estudio del trabajo, el tiempo que invierte realmente el colaborador observado, cuál es el mejor método a establecer, determinar los modelos a seguir por el grueso de los colaboradores calificados. Estos, son todos medios pertinentes para cumplir con los criterios del cliente y soportar económicamente la empresa.
 
     .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Usos prácticos de la medición del trabajo
@@ -1062,7 +1073,7 @@
                   | Se hallan demoras injustificadas, causadas por la ejecución de una operación.
                 li.mb-2
                   i.fa-li.fas.fa-check-circle.purpleTxt
-                  | Se estandariza un proceso para fijar los tiempos y crear un sistema de incentivos.    
+                  | Se estandariza un proceso para fijar los tiempos y crear un sistema de incentivos.
                 li.mb-2
                   i.fa-li.fas.fa-check-circle.purpleTxt
                   | Se tiene un sistema de producción bajo en rendimiento o exagerados tiempos muertos.
@@ -1082,7 +1093,7 @@
                   | Identifica tiempos productivos e improductivos.
                 li.mb-2
                   i.fa-li.fas.fa-check-circle.purpleTxt
-                  | Identifica a cuáles movimientos se les dedicará más tiempo y por qué.  
+                  | Identifica a cuáles movimientos se les dedicará más tiempo y por qué.
                 li.mb-2
                   i.fa-li.fas.fa-check-circle.purpleTxt
                   | Observa la operación para separar los movimientos de aparición constante, de los movimientos de aparición variable.
@@ -1100,7 +1111,7 @@
         figure
             img(src="@/assets/curso/temas/tema1/93.svg", alt="alt")
 
-    p(data-aos="fade-in").mb-5 También se relacionan las técnicas y normas que se emplean, como se describe a continuación:       
+    p(data-aos="fade-in").mb-5 También se relacionan las técnicas y normas que se emplean, como se describe a continuación:
 
     .row.justify-content-center
       SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in")
@@ -1109,22 +1120,22 @@
           div(style='background-color: #EF8B53').p-5.h-100.brd-rad
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Técnica de la estimación estructurada
-            p Denominada, también, muestreo de actividades. Se configura para elegir por separación estadística y al azar, puestos de trabajo y registrar metódicamente el tiempo que dura la realización de una operación.  
+            p Denominada, también, muestreo de actividades. Se configura para elegir por separación estadística y al azar, puestos de trabajo y registrar metódicamente el tiempo que dura la realización de una operación.
 
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/95.png' alt='')
           div(style='background-color: #F0BD51').p-5.h-100.brd-rad
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Estructura de la técnica de datos históricos
-            p Representa los compilados durante periodos estimados de tiempo.  
+            p Representa los compilados durante periodos estimados de tiempo.
 
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/96.png' alt='')
           div(style='background-color: #EF8B53').p-5.h-100.brd-rad
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Técnica del muestreo del trabajo
-            p Es el empleo de datos estadísticos y documentados. 
-            
+            p Es el empleo de datos estadísticos y documentados.
+
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/97.png' alt='')
           div(style='background-color: #F0BD51').p-5.h-100.brd-rad
@@ -1139,14 +1150,14 @@
               h4.mb-0.text-center Normas estructuradas de tiempos predeterminados
             p Es la técnica de registro de cualquier operación manual o método, por los movimientos básicos necesarios para ejecutarlo, asignando a cada movimiento un tiempo tipo predeterminado, según las condiciones en que se efectúa.
 
-    p(data-aos="fade-in").mb-4 Finalmente, estos elementos antes mencionados se consideran a partir de los tiempos estándar por cronometraje y por predeterminados, desde la valoración, cronometraje y método, así como se relaciona a continuación: 
+    p(data-aos="fade-in").mb-4 Finalmente, estos elementos antes mencionados se consideran a partir de los tiempos estándar por cronometraje y por predeterminados, desde la valoración, cronometraje y método, así como se relaciona a continuación:
 
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
       table
         caption Nota. Tomado de Kanawaty (1996)
-        thead(style="background-color:#583CB6")          
+        thead(style="background-color:#583CB6")
           tr.text-center.text-white
-            th(width="20%") 
+            th(width="20%")
             th(width="40%") Tiempos estándar por cronometro
             th(width="40%") Tiempos estándar por predeterminados
         tbody
@@ -1167,7 +1178,7 @@
       h4.mb-0 Cálculo del tiempo estándar.
 
     p(data-aos="fade-in") Es el tiempo requerido para que un operario calificado, con comportamiento eficiente, plenamente dotado, adiestrado y trabajando a ritmo normal, lleve a cabo una operación.
-    p.mb-5 Son tres los elementos esenciales en el cálculo del estándar; para ello, se tienen presentes los tiempos observados, como el número de ciclos que se cronometran y se registran en una matriz de cálculo de tiempos, estos son: 
+    p.mb-5 Son tres los elementos esenciales en el cálculo del estándar; para ello, se tienen presentes los tiempos observados, como el número de ciclos que se cronometran y se registran en una matriz de cálculo de tiempos, estos son:
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-9
@@ -1188,10 +1199,10 @@
                 | Ritmo normal del colaborador promedio.
               li.mb-2
                 i.fa-li.fas.fa-check-circle.purpleTxt
-                | Tecnificar la valoración relacionando a un colaborador calificado. 
+                | Tecnificar la valoración relacionando a un colaborador calificado.
               li.mb-2
                 i.fa-li.fas.fa-check-circle.purpleTxt
-                | Cálculo tiempo base o valorado.  
+                | Cálculo tiempo base o valorado.
 
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Suplementos")
             h4 Suplementos
@@ -1212,13 +1223,13 @@
                 | Descanso.
               li.mb-2
                 i.fa-li.fas.fa-check-circle.purpleTxt
-                | #[strong Necesidades personales:] 5 % y 7 %. 
+                | #[strong Necesidades personales:] 5 % y 7 %.
               li.mb-2
                 i.fa-li.fas.fa-check-circle.purpleTxt
-                | #[strong Básicas:] 4 %. 
+                | #[strong Básicas:] 4 %.
               li.mb-2
                 i.fa-li.fas.fa-check-circle.purpleTxt
-                | #[strong Variables:] aplican a las condiciones del ambiente laboral. 
+                | #[strong Variables:] aplican a las condiciones del ambiente laboral.
               li.mb-2
                 i.fa-li.fas.fa-check-circle.purpleTxt
                 | #[strong Contingencia:] para prever demoras que aparecen con frecuencia, valor es del 2 %.
@@ -1250,8 +1261,8 @@
         figure
           img(src="@/assets/curso/temas/tema1/99.svg", alt="alt")
 
-    
-    
+
+
 
 
 
